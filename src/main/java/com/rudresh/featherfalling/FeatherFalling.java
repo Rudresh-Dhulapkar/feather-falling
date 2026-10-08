@@ -32,7 +32,7 @@ public class FeatherFalling implements ModInitializer {
 	private static final Map<UUID, Integer> chickenSpawnTimers = new HashMap<>();
 
 	private static final int MAX_CHICKENS = 20;
-	private static final int CHICKEN_SPAWN_INTERVAL = 200; // 20 means every tic, so 200 means every 10 seconds
+	private static final int CHICKEN_SPAWN_INTERVAL = 100; // 20 means every tic, so 200 means every 10 seconds
 
 	@Override
 	public void onInitialize() {
